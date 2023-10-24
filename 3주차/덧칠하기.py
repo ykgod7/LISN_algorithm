@@ -3,7 +3,7 @@ def solution(n, m, section):
 
     temp = section[0]
 
-    for num in section[1:]:    
+    for num in section[1:]:   
         if num - temp >= m:
             answer += 1
             temp = num
