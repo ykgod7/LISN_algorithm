@@ -9,4 +9,4 @@ def solution(X, Y):
     elif len(answer) == answer.count('0'):
         return '0'
     else :
-        return answer
+        return answer 
